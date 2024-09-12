@@ -1,0 +1,97 @@
+.card{
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    padding: 10px;
+    border-radius: 4px;
+    width : 300px;
+    display: flex;
+    flex-direction: column;
+    height : 150px;
+    justify-content: space-evenly;
+    margin-top:10px;
+}
+
+.firstRow, .secondRow, .thirdRow{
+    margin-bottom : 8px;
+}
+
+.firstRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondRow{
+    display: flex;
+}
+
+.title{
+    margin-left : 5px;
+    font-weight : bold;
+}
+
+.id{
+    color : gray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.thirdRow{
+    display: flex;
+    align-items: flex-start; 
+}
+
+.priority{
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    height : 20px;
+    
+}
+
+.priorityImg{
+    padding : 2px;
+}
+
+.on{
+    box-shadow: 0 0 0 0.2px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    width : 150px;
+    display: flex;
+    margin-left : 10px;
+}
+
+.onImg{
+    margin-right :5px ;
+}
+
+.tag{
+    color: gray;
+}
+
+.initials-container {
+    position: relative;  
+    width: 25px;        
+    height: 25px;        
+    background-color: #007bff;  
+    border-radius: 50%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    font-size: 15px;       
+    color: white;            
+    font-weight: bold;       
+  }
+  
+  .status-icon {
+    position: absolute;
+    width: 12px;  
+    height: 12px;
+    border-radius: 50%;  
+    bottom: -2px; 
+    right: -2px; 
+    background-color: lightgray; 
+  }
+  
+  
+
+
+
